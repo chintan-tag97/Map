@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.row {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.vedio, .text {
+    flex: 1; 
+    text-align: center;
+}
+
+.text {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.map-container {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.map-container h1 {
+    color: #333;
+}
+
+
